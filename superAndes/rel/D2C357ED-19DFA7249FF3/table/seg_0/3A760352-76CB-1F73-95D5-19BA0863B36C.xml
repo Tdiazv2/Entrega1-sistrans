@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3A760352-76CB-1F73-95D5-19BA0863B36C" name="OrdenCompra">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>ABA6BD99-C7BF-46F3-FBEC-E1D00FE9581C</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo1" id="EA162EFD-9468-C4F6-D655-7ED709B5D48F">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>132279D3-DE88-4DB6-A81B-10DCCB837D5D</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaCreacion" id="099E47ED-3935-07DA-1D02-92CBB1BB03EB">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>3A0B2749-4F80-9A9B-C7D8-0A9FA375FE9F</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fechaEntrega" id="00A01C1F-E3CF-89F0-29A8-C99ECE0E459F">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>E583B930-3C5A-1A0D-FA44-0DDC613318FE</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="estadoOrdenCompra" id="8BAFE669-77DB-0006-608E-46FC06042E31">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>55E3A915-782D-A582-401C-AF872CBABE6D</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>E9FEAB6D-E9A7-0C76-D1BB-85820BD546F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Proveedor_NIT" id="03118F06-5B60-DE7F-44E9-15B2D3B58574">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>C8E0FF46-AC95-6C13-FB1A-1FDD0030D840</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4C298574-64A7-816A-4FFA-FEF0A1DA377F" referredColumn="AF7B59BA-80DD-EFB6-6197-BC0D93C259FC"/>
+</associations>
+</Column>
+<Column name="Sucursal_codigo" id="26BBDB36-9ADC-4911-E4E9-E6B426E125F4">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>4F03AA25-02AD-488D-2550-4BE654F411E3</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71202C22-E178-1221-9CB1-5EFC8C862F50" referredColumn="C2DB6351-FB32-9FAC-D773-3321A80DC4FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="54A93447-A700-920B-93D9-D4948FBD77DF" name="OrdenCompra_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>03AF79F8-2093-80BF-BA83-5A4E3A0CD5E2</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA162EFD-9468-C4F6-D655-7ED709B5D48F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8226E10B-F55F-A908-BF2F-C16E20400A67" name="OrdenCompra_Proveedor_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>75F7CB97-5848-1E15-35A6-75496FA76555</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="03118F06-5B60-DE7F-44E9-15B2D3B58574"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9136FAC9-CCA3-E773-3DAB-44FE16FD5C57" name="OrdenCompra_Sucursal_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>A405C4CE-82BF-A98E-38F3-F5EFADCCA197</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26BBDB36-9ADC-4911-E4E9-E6B426E125F4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,109 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="ABA6BD99-C7BF-46F3-FBEC-E1D00FE9581C" name="OrdenCompra">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 02:12:49 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<engineerTo>
+<item key="D2C357ED-C607-0729-2268-19DFA7249FF3" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="codigo1" id="132279D3-DE88-4DB6-A81B-10DCCB837D5D">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 02:13:16 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<engineerTo>
+<item key="D2C357ED-C607-0729-2268-19DFA7249FF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaCreacion" id="3A0B2749-4F80-9A9B-C7D8-0A9FA375FE9F">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 02:13:42 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<engineerTo>
+<item key="D2C357ED-C607-0729-2268-19DFA7249FF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fechaEntrega" id="E583B930-3C5A-1A0D-FA44-0DDC613318FE">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 02:14:11 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<engineerTo>
+<item key="D2C357ED-C607-0729-2268-19DFA7249FF3" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="estadoOrdenCompra" id="55E3A915-782D-A582-401C-AF872CBABE6D">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 02:14:35 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<engineerTo>
+<item key="D2C357ED-C607-0729-2268-19DFA7249FF3" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<domain>E9FEAB6D-E9A7-0C76-D1BB-85820BD546F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIT" id="C8E0FF46-AC95-6C13-FB1A-1FDD0030D840">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 02:40:08 UTC</createdTime>
+<generatorID>75F7CB97-5848-1E15-35A6-75496FA76555</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<engineerTo>
+<item key="D2C357ED-C607-0729-2268-19DFA7249FF3" value="true"/>
+</engineerTo>
+<referedAttribute>B6F31577-662E-7C80-8B09-85AA5AAB77D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigo" id="4F03AA25-02AD-488D-2550-4BE654F411E3">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 02:40:20 UTC</createdTime>
+<generatorID>A405C4CE-82BF-A98E-38F3-F5EFADCCA197</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<engineerTo>
+<item key="D2C357ED-C607-0729-2268-19DFA7249FF3" value="true"/>
+</engineerTo>
+<referedAttribute>91C8186C-6923-8FA8-2DE9-C995FA8D1DF1</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03AF79F8-2093-80BF-BA83-5A4E3A0CD5E2" name="OrdenCompra PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 02:13:12 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<engineerTo>
+<item key="D2C357ED-C607-0729-2268-19DFA7249FF3" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>132279D3-DE88-4DB6-A81B-10DCCB837D5D</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

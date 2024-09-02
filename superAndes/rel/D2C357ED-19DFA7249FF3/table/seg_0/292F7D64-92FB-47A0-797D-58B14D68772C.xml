@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="292F7D64-92FB-47A0-797D-58B14D68772C" name="RecepcionProductos">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>7A04FD32-56F0-E115-B7C6-4900B3356061</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="codigo" id="81BF2DF5-5416-33FA-C09B-1A861242AE61">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>34B11121-614E-C646-A9DE-CE6DF3D57E9C</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="5D82B3E6-1C67-DDAC-840F-F7BD7EECAB43">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>0E97224A-0464-5C3A-872B-560F4BBA0DC3</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="costoPromedio" id="789B0E09-9C99-C9BD-8028-B51695E89A9E">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>F4F5253A-412C-9B3A-8956-D30DF41DA67B</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Producto_codigoBarras" id="DC932E13-8826-1C96-00FB-015D9EFDB9C5">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>041DAC9D-15A7-9C54-A509-B18D0045BDB6</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B531027-F453-C5E7-B9BE-867DE0EA30C0" referredColumn="536DB7BF-44C2-8A95-2A7D-D1053A996926"/>
+</associations>
+</Column>
+<Column name="Bodega_id_bodega" id="36270B60-EDC6-739E-C9DC-DF42A31ACDB5">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>3D6DA66C-65B1-5F04-D0DF-C306FF1150A3</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F661E95-B2F2-DD8D-EBEC-37B4CC5658A0" referredColumn="60F92151-300D-2F22-C4CD-BF8E4262A602"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B9CB4682-9414-E355-ACFE-451EB5DE8549" name="RecepcionProductos_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>0A61E16C-9D86-C72F-30C2-3EFCBFB8AE9A</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81BF2DF5-5416-33FA-C09B-1A861242AE61"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBFABCFC-AC83-2576-F8DC-1801634FADFA" name="RecepcionProductos_Bodega_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>AC3E3792-1803-7808-75DB-B93CA78A49D5</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="36270B60-EDC6-739E-C9DC-DF42A31ACDB5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2F84D31C-CEA8-2F7E-4760-35E32A085786" name="RecepcionProductos_Producto_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>DDE074E2-CFBE-570A-D188-318545DABC36</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC932E13-8826-1C96-00FB-015D9EFDB9C5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

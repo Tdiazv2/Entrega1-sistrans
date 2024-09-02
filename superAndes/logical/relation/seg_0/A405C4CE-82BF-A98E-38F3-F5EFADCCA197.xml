@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SucursalOrdenCompra" directorySegmentName="seg_0" id="A405C4CE-82BF-A98E-38F3-F5EFADCCA197">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 02:40:20 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<engineerTo>
+<item key="D2C357ED-C607-0729-2268-19DFA7249FF3" value="true"/>
+</engineerTo>
+<sourcePk>CBC31124-102D-66F0-99BD-9A6B2AE1AB35</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FD0D62DB-4351-7A43-399F-14423D03B8EC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>ABA6BD99-C7BF-46F3-FBEC-E1D00FE9581C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

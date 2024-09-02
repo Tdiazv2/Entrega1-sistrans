@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CE4DDC19-8A8C-ED3F-6E07-B0F10299F6C8" name="ProductoOrdenCompra">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Producto_codigoBarras" id="1634C845-BA7C-14B7-440D-7B53F986FB38">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>A3A3C77D-0366-9768-FF89-1C25E56881C8</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D4F0C94-50D9-93ED-3816-8C55E4CFD1B1" referredColumn="536DB7BF-44C2-8A95-2A7D-D1053A996926"/>
+</associations>
+</Column>
+<Column name="OrdenCompra_codigo1" id="E893A830-C847-1AAA-FEF0-9894F34D96FF">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F9868DC-0E86-8F6F-14AF-2989FEC6874D" referredColumn="EA162EFD-9468-C4F6-D655-7ED709B5D48F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="59A46ECB-D0F3-2AD3-6333-FDEA4364DFAA" name="ProductoOrdenCompra_PK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1634C845-BA7C-14B7-440D-7B53F986FB38"/>
+<colUsage columnID="E893A830-C847-1AAA-FEF0-9894F34D96FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0A4586D0-22F0-2869-0187-23EE9D1A9336" name="ProductoOrdenCompra_Producto_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>C369B587-9C6F-2A2D-D744-664CC350D453</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1634C845-BA7C-14B7-440D-7B53F986FB38"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19B8B7E7-D6EA-4A6F-8CE4-6F7431E82FE4" name="ProductoOrdenCompra_OrdenCompra_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>C369B587-9C6F-2A2D-D744-664CC350D453</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E893A830-C847-1AAA-FEF0-9894F34D96FF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

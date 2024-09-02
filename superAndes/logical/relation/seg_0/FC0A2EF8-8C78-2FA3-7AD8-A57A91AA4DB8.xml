@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BodegaSucursal" directorySegmentName="seg_0" id="FC0A2EF8-8C78-2FA3-7AD8-A57A91AA4DB8">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 02:44:16 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<engineerTo>
+<item key="D2C357ED-C607-0729-2268-19DFA7249FF3" value="true"/>
+</engineerTo>
+<sourcePk>61EB7BEB-F52F-7D41-F997-0EC4CF779ECF</sourcePk>
+<targetPk>CBC31124-102D-66F0-99BD-9A6B2AE1AB35</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>FDD50E95-1266-0C27-7013-068C6880D8BE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>FD0D62DB-4351-7A43-399F-14423D03B8EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="CiudadSucursal" directorySegmentName="seg_0" id="7FB7D340-879B-2556-A420-D1FD41D8CAA1">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 02:23:33 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<engineerTo>
+<item key="D2C357ED-C607-0729-2268-19DFA7249FF3" value="true"/>
+</engineerTo>
+<sourcePk>8C434C03-084F-BC66-34B8-DDC46D9950EA</sourcePk>
+<targetPk>CBC31124-102D-66F0-99BD-9A6B2AE1AB35</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>CB6E62E6-E353-833B-5523-F34081C605F4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>FD0D62DB-4351-7A43-399F-14423D03B8EC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

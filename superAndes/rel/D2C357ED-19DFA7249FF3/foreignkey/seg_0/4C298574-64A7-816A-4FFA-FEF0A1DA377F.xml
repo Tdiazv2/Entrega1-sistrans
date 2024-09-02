@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C298574-64A7-816A-4FFA-FEF0A1DA377F" containerWithKeyObject="3A760352-76CB-1F73-95D5-19BA0863B36C" localFKIndex="8226E10B-F55F-A908-BF2F-C16E20400A67" name="OrdenCompra_Proveedor_FK">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 03:25:14 UTC</createdTime>
+<generatorID>75F7CB97-5848-1E15-35A6-75496FA76555</generatorID>
+<ownerDesignName>superAndes</ownerDesignName>
+<referredTableLongName>Proveedor</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>884DEBEE-2437-F9E1-DF19-701EF5866D9A</referredTableID>
+<keyObject>E168C950-2554-05FD-9DF3-7DCCB83EA332</keyObject>
+<referredKeyID>E168C950-2554-05FD-9DF3-7DCCB83EA332</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>NIT</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

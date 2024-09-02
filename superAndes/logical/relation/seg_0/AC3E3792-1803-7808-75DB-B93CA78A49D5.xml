@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="BodegaRecepcionProductos" directorySegmentName="seg_0" id="AC3E3792-1803-7808-75DB-B93CA78A49D5">
+<createdBy>Usuario</createdBy>
+<createdTime>2024-09-02 02:26:14 UTC</createdTime>
+<ownerDesignName>superAndes</ownerDesignName>
+<engineerTo>
+<item key="D2C357ED-C607-0729-2268-19DFA7249FF3" value="true"/>
+</engineerTo>
+<sourcePk>61EB7BEB-F52F-7D41-F997-0EC4CF779ECF</sourcePk>
+<targetPk>0A61E16C-9D86-C72F-30C2-3EFCBFB8AE9A</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>FDD50E95-1266-0C27-7013-068C6880D8BE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>7A04FD32-56F0-E115-B7C6-4900B3356061</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
